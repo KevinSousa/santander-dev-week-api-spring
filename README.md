@@ -63,3 +63,6 @@ Para configurar o ambiente de desevolvimento no **IntelliJ**, seguir os seguinte
 
 1. Run/Debug Cinfigurations
 2. No campo Environment Variables, adicionar a seguinte variável: **SPRING_PROFILES_ACTIVE: dev**
+
+
+santander-api-spring-prd.up.railway.app
