@@ -48,7 +48,7 @@ classDiagram
 
 ## Configs
 
-Para configurar o ambiente de de desevolvimento no VSCode, seguir os seguintes passos:
+Para configurar o ambiente de desevolvimento no VSCode, seguir os seguintes passos:
 
 1. Run -> Open Configurations:
 2. Dentro do launch.json, adicionar o seguinte objeto: 
@@ -57,4 +57,9 @@ Para configurar o ambiente de de desevolvimento no VSCode, seguir os seguintes p
 "env": {
   "SPRING_PROFILES_ACTIVE": "DEV"
 }
+
 ```
+Para configurar o ambiente de desevolvimento no IntelliJ, seguir os seguintes passos:
+
+1. Run/Debug Cinfigurations
+2. No campo Environment Variables, adicionar a seguinte variável: ** SPRING_PROFILES_ACTIVE: dev **
