@@ -45,3 +45,16 @@ classDiagram
   User "1" *-- "1" Card
   User "1" *-- "N" News
 ```
+
+## Configs
+
+Para configurar o ambiente de de desevolvimento no VSCode, seguir os seguintes passos:
+
+1. Run -> Open Configurations:
+2. Dentro do launch.json, adicionar o seguinte objeto: 
+
+```
+"env": {
+  "SPRING_PROFILES_ACTIVE": "DEV"
+}
+```
