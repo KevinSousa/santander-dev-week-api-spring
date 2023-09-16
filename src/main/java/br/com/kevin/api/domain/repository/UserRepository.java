@@ -6,4 +6,6 @@ import br.com.kevin.api.domain.model.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 
+    boolean existsByAccountNumber(String accoundNumber);
+
 }
